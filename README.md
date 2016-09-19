@@ -23,3 +23,4 @@ npm start
 If the typings folder doesn't show up after running npm install, you'll need to install it manually with the command:
 npm run typings install
 
+6) Creating app
