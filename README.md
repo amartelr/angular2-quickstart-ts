@@ -16,11 +16,12 @@ npm  install -g typescript
 
 npm install
 
-4) Run
-npm start
-
-5) Case Error
+! Case Error
 If the typings folder doesn't show up after running npm install, you'll need to install it manually with the command:
 npm run typings install
 
-6) Creating app
+4) Creating app
+
+5)  Run
+npm start
+
