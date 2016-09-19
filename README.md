@@ -18,3 +18,8 @@ npm install
 
 4) Run
 npm start
+
+5) Case Error
+If the typings folder doesn't show up after running npm install, you'll need to install it manually with the command:
+npm run typings install
+
