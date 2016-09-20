@@ -8,7 +8,17 @@ npm install -g bower
 npm install -g gulp
 npm install grunt -g
 npm  install -g typescript
-# npm install typings -g
+npm install tslint  -g
+npm install typings -g
+npm install superstatic -g
+npm install ts-node -g
+npm install typescript-node -g
+npm install webpack-dev-server -g 
+npm install rimraf -g
+npm install webpack -g
+npm install -g jspm@beta
+ npm install -g http-server 
+
 
 2) Creating Configuration files
 
@@ -24,4 +34,8 @@ npm run typings install
 
 5)  Run
 npm start
+
+6) Interpolation
+
+Now we want to display some dynamic data on this first page, maybe the number of users registered into our app
 
