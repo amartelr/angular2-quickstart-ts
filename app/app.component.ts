@@ -2,12 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `
-    <h1>Mi Primera App Angular 2</h1>
-    <h2>{{numberOfUsers}} users</h2>
-    `
+  templateUrl: './app/app.component.html',
+  styleUrls: ['./app/app.component.css']
 })
-export class AppComponent { 
-  numberOfUsers: number = 99;
 
+export class AppComponent {
+  numberOfUsers: number = 99;
 }

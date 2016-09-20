@@ -39,3 +39,4 @@ npm start
 
 Now we want to display some dynamic data on this first page, maybe the number of users registered into our app
 
+7) separating html from component
