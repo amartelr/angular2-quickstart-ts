@@ -9,6 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TwoComponent implements OnInit {
    constructor() { }
-
+   items: any[];
+   total: number = 1;
    ngOnInit() { }
+
+   refreshList() {
+      this.items = [{ name: 'Madrid' }, { name: 'Las Palmas' }];
+      this.total *= this.items.length;
+   }
 }

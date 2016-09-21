@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   numberOfUsers: number = 99;
+  onButtonClick(event) {
+    console.log(event);
+  }
 }

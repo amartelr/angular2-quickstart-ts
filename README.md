@@ -43,3 +43,5 @@ Now we want to display some dynamic data on this first page, maybe the number of
 
 8) Adding another component
 
+9) Events
+
